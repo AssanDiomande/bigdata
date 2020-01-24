@@ -1,0 +1,21 @@
+Tuto utilisation docker :
+
+Installer docker : https://docs.docker.com/install/linux/docker-ce/ubuntu/
+Creer un docker file
+Si besoin creer un fichier requirements.txt
+
+"creer une image docker"
+sudo docker build -t nom_image:1.0 .
+
+"creer container" :
+sudo docker container run -d --publish 8000:8000 --detach --name bigdata bigdata:1.0
+
+"utiliser le container"
+sudo docker run -p 8000:8000 -it bigdata:1.0
+
+"supprimer container docker"
+sudo docker rm nom_container --force
+
+"lancer jupyter depuis docker"
+jupyter notebook --ip=0.0.0.0 --port=8000 --allow-root
+
