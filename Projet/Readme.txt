@@ -1,4 +1,5 @@
-Ce projet consiste à analyser des données concernant certains facteurs pouvant influencer le bohneur dans un groupe d'individu comme par exemple sa situation professionnelle.
+Ce projet consiste à analyser des données concernant certains facteurs pouvant influencer le bohneur dans un groupe d'individu comme par exemple sa situation professionnelle afin de savoir qu'est-ce qui peut influencer positivement le bohneur sur un groupe d'individu.
+
 Ce dataset ce concentre sur un groupe d'individus venant des Etats-unis en fonction de plusieurs régions
 
 Le modules utilisé pour ce projet sont :
