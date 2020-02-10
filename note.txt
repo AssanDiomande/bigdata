@@ -17,5 +17,5 @@ sudo docker run -p 8000:8000 -it nom_image_docker:1.0 (ou nom_image_container:1.
 sudo docker rm nom_container --force
 
 "lancer jupyter depuis docker"
-jupyter notebook --ip=0.0.0.0 --port=8000 --allow-root
+jupyter notebook --ip=0.0.0.0 --port=8000 --allow-root (permet à utilisateur d'éxécuter la commande en mode root)
 
